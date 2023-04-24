@@ -1,0 +1,37 @@
+/* make whole background light blue */
+body {
+    background-color: lightblue;
+  }
+  h1 {
+    text-decoration: overline;
+  }
+  form {
+    text-decoration: overline;
+  }
+  div {
+    padding: 25px 50px 75px 100px;
+  }
+  div {
+    border: 0.5rem outset black;
+    outline: 0.5rem solid white;
+    box-shadow: 0 0 0 2rem red;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+  }
+  /* unvisited link */
+a:link {
+    color: #FFFFFF;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #000000;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FFFFFF;
+  }
