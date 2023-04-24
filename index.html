@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>  
+    <style> 
+      .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: rgb(0, 0, 0);
+      }
+
+      .flex-container > div {
+        background-color: #000000;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }  
       h1 {
         color: black;
         margin-left: 45vw;
@@ -39,7 +53,7 @@
         <li><a href="https://www.youtube.com/">Link 3</a></li>
       </ul>
     </nav>
-    <p>
+    <p class = "p1">
       This is a <strong>paragraph</strong> about <i>meeting</i> <b>topic 1</b>
       This is a <em>emphasis</em>
       This is a <br>paragraph break</br>
@@ -49,7 +63,7 @@
       <source src="doraemon.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio>
-    <div>
+    <div1>
       <video width="320" height="240" controls>
         <source src="doraemon.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -58,7 +72,7 @@
         <summary>Doraemon</summary>
         <p>Doraemon is a Japanese cartoon created in 1979 and has touched the minds and hearts of children all across the globe.</p>
       </details>
-    </div>
+    </div1>
     <hr>
     <div>
       <form>
@@ -97,5 +111,14 @@
       <button type="button">SUBMIT</button>
     </div>
     <hr>
+    <div class="wrapper">
+      <div class="one">One</div>
+      <div class="two">Two</div>
+      <div class="three">Three</div>
+      <div class="four">Four</div>
+      <div class="five">Five</div>
+      <div class="six">Six</div>
+      <div class="seven">Seven</div>
+    </div>
   </body>
 </html>
